@@ -1,0 +1,67 @@
+// import bootstrap
+@import "bootstrap/bootstrap.less";
+
+@defaultBlockPadding : 20px;
+@defaultBorderRadius : 10px;
+
+// app specific styles
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #efefef;
+}
+
+// utility
+.rounded {
+  border-radius: @defaultBorderRadius;
+}
+
+// colors:
+.bg-white {
+  background-color: white;
+}
+
+// layout
+.container {
+  padding: @defaultBlockPadding;
+  margin-top: 40px;
+}
+
+.container-inner {
+  padding: @defaultBlockPadding;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  line-height: 30px;
+}
+
+.glyphicon {
+  padding: 5px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.lang-switcher a {
+  padding: 5px;
+}
+
+// forms
+textarea {
+  width: 100%;
+}
